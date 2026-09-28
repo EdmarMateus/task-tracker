@@ -1,0 +1,14 @@
+{
+	"command-list":
+	{
+		"add": "Adding a new task!",
+		"update": "Updating a task!",
+		"delete": "Delete a task!",
+		"mark-in-progress": "Mark a task as in progress!",
+		"mark-done": "Mark a task as done!",
+		"list": "List all tasks",
+		"list done": "List task done!",
+		"list todo": "List task to do!",
+		"list in-progress": "List task in progress!"
+	}
+}

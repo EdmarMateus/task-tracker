@@ -1,0 +1,37 @@
+{
+  "name": "task-tracker",
+  "version": "1.0.0",
+  "description": "(CLI) project to my study of typescript linguage!",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin":
+  {
+    "task-tracker": "./dist/index.js"
+  },
+  "scripts":
+  {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository":
+  {
+    "type": "git",
+    "url": "git+https://github.com/EdmarMateus/task-tracker.git"
+  },
+  "keywords": [],
+  "author": "EdmarDMateus",
+  "license": "ISC",
+  "bugs":
+  {
+    "url": "https://github.com/EdmarMateus/task-tracker/issues"
+  },
+  "homepage": "https://github.com/EdmarMateus/task-tracker#readme",
+  "dependencies":
+  {
+    "typescript": "^7.0.2"
+  },
+  "devDependencies":
+  {
+    "@types/node": "^26.6.3"
+  }
+}
