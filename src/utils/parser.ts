@@ -7,9 +7,12 @@ function	getCMD(args: string[], commandList: object): string
 	{
 		let	dbListTools: string [] = ['done', 'todo', 'in-progress'];
 
-		if (!(`${args[1]}` in dbListTools))
-			throw(`${args[1]} is not a list command tool!`);
-		return (`list ${args[1]}`);
+		for (let tool of dbListTools)
+		{
+			if (args[1] === tool)
+				return (`list ${args[1]}`);
+		}
+		throw(`${args[1]} is not a list command tool!`);
 	}
 	return (`${args[0]}`);
 }

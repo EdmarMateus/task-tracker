@@ -1,7 +1,6 @@
 export	function	getHelp(): string
 {
 	return (
-
 		"                  ╔══════════════════════════════╗                  \n" +
 		"╔═════════════════╣ Task Tracker - Commands List ╠═════════════════╗\n" +
 		"║                 ╚══════════════════════════════╝                 ║\n" +
